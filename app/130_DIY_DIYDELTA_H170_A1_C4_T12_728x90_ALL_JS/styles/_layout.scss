@@ -1,0 +1,99 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+    #txt1a {
+
+        clip: rect(0px,728px,46px,0px);
+    }
+
+    #grad1a {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1442px;
+        left: 95px;
+        // opacity:0;
+    }
+
+    #txt1b {
+
+        clip: rect(46px,628px,90px,0px);
+    }
+
+    #txt1c {
+
+        clip: rect(70px, 728px, 90px, 635px);
+    }
+
+    #grad1b {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1415px;
+        left: 95px;
+        // opacity:0;
+    }
+
+    #footer {
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 90px;
+        height:$banner-height;
+
+        #logo {
+            position: absolute;
+            width:70px;
+            bottom: 10px;
+            left: 10px;
+
+        }
+    }
+
+    #cta {
+        position: absolute;
+        width:120px;
+        height:32px;
+        bottom: 29px;
+        right: 20px;
+        background-color: rgba(245, 204, 2, 1);
+    }
+    
+
+}
