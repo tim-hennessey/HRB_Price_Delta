@@ -8,7 +8,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate3d(0, 0, 0.1px);
+    // transform: translate3d(0, 0, 0.1px);
 }
 #border {
         display: block;
@@ -71,8 +71,8 @@ body {
     #gif {
         width: $banner-width;
         height: $banner-height;
-        clip: rect(210px, 300px, 288px, 0px);
-        position: absolute;
+        clip: rect(210px, 295px, 288px, 5px);
+        // position: absolute;
 
     }
 

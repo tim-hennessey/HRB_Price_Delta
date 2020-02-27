@@ -8,17 +8,17 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate3d(0, 0, 0.1px);
+    // transform: translate3d(0, 0, 0.1px);
 }
 #border {
-        display: block;
-        width: $banner-width;
-        height: $banner-height;
-        pointer-events: none;
-        outline: solid 1px #000;
-        outline-offset: -1px;
-        z-index: 999;
-    }
+    display: block;
+    width: $banner-width;
+    height: $banner-height;
+    pointer-events: none;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    z-index: 999;
+}
 
 #banner {
     background: #14AA40;
@@ -72,8 +72,9 @@ body {
     #gif {
         width: $banner-width;
         height: $banner-height;
-        clip: rect(60px, 300px, 116px, 112px);
-        position: absolute;
+        clip: rect(60px, 295px, 116px, 112px);
+        // position: absolute;
+        // opacity: 0;
     }
 
 }

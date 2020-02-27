@@ -32,9 +32,8 @@ app.Animation = (function () {
 	// Starts the animation
 	function start() {
 
-		// tl2.to(tl1, 3, {progress:1, force3D:true, ease: Sine.easeInOut}, "+=.5");
-
-		t.delayedCall(0, animateIcon);
+		// t.delayedCall(0, animateIcon);
+		animateIcon();
 		
 	}
 
